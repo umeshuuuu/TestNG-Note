@@ -1,0 +1,65 @@
+textNG
+
+
+full control over the testcase
+also konow as tesing framework
+
+comes after junit
+cedric beust is the developer
+opensoure automated testng framework
+testng= next generation
+
+
+
+annotation
+----------
+@beforesuite
+@beforeclass
+
+@beforetest
+@beforemethod
+@test
+@aftermethod
+@aftertest
+
+@afterclass
+@aftersuite
+2.priority
+3.inovation count,can skip test(enabled=false),depands on methods-depamdsonmethod={"test1"}
+4.by default result genertion
+5.grouping.
+6.parallel execuation
+7.parameter anotation can read vale of xml.
+
+
+help- eclipe marketplace- find (search-(textng for eclips))-install- textng mze 2nd uncheck-accept aand finish-
+              
+
+navigation command in selenium
+----------------------------
+	        driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		driver.navigate().to("urlname");
+
+Chromeissue handling
+-----------------------
+
+       ChromeOptions options=new ChromeOption();
+	Option.addArguments("--remote-allow-orgin=*");
+	driver=new ChromeDriver(options);
+	driver.get("https://www.facebook.com/signup");
+
+disable notification handleing
+--------------------
+ChromeOptions options=new ChromeOption();
+	Option.addArguments("--disable-notifications");
+	driver=new ChromeDriver(options);
+	window.manage().window().maximize();
+
+
+
+getwindowhandle =  singlewindowhandle
+
+getwindowhandles =  multiplewindowhandle
+
